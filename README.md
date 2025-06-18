@@ -1,33 +1,47 @@
-This is a Next.js project bootstrapped with create-next-app.
+# 🛍️ Product Listing App – Bribooks Frontend Developer Assignment
 
-Getting Started
-First, run the development server:
+A responsive and feature-rich product listing page built using **Next.js**, **React**, **TypeScript**, and **Bootstrap**.  
+This project was completed as part of the **Frontend Developer Intern** assignment for **Bribooks**.
 
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-Open http://localhost:3000 with your browser to see the result.
+---
 
-You can start editing the page by modifying pages/index.tsx. The page auto-updates as you edit the file.
+## 🚀 Live Demo
 
-API routes can be accessed on http://localhost:3000/api/hello. This endpoint can be edited in pages/api/hello.ts.
+👉 [Click here to view the live project](https://bribook-assignment.netlify.app/)
 
-The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.
+---
 
-This project uses next/font to automatically optimize and load Geist, a new font family for Vercel.
+## 🧰 Tech Stack
 
-Learn More
-To learn more about Next.js, take a look at the following resources:
+- **Next.js** – For SSR and routing
+- **React.js** – For building UI components
+- **TypeScript** – For type safety and cleaner code
+- **Bootstrap 5** – For responsive styling
+- **FakeStoreAPI** – Public API to fetch product data
 
-Next.js Documentation - learn about Next.js features and API.
-Learn Next.js - an interactive Next.js tutorial.
-You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
+---
 
-Deploy on Vercel
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
+## ✅ Features Implemented
 
-Check out our Next.js deployment documentation for more details.
+- ✅ **Server-side rendering** using `getServerSideProps`  
+- ✅ **Responsive layout** using Bootstrap grid system  
+- ✅ **Product cards** with:
+  - Image
+  - Title
+  - Price
+  - Category
+  - Rating  
+- ✅ **Client-side search bar** to filter products by title  
+- ✅ **Loading spinner** while filtering  
+- ✅ **Client-side pagination** with smooth scroll to top  
+- ✅ **Dynamic routing** for product detail page `/product/[id]`  
+- ✅ **Clean and modular code structure** using reusable components  
+- ✅ **README with setup instructions, assumptions, and demo link**
+
+
+## ⚙️ Setup Instructions
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/aditya9525/BriBook-Assignment.git
+cd BriBook-Assignment
